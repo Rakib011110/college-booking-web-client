@@ -1,0 +1,68 @@
+[
+  {
+    "_id": "001",
+    "collegeName": "ABC College of Engineering",
+    "admissionDate": "2023-09-01",
+    "researchHistory": "Established in 1985",
+    "events": ["Annual Fest", "Tech Symposium"],
+    "sportsFacilities": ["Football Ground", "Basketball Court"],
+    "collegeImage": "college1.jpg",
+    "rating": "4.5",
+    "researchCount": 120
+  },
+  {
+    "_id": "002",
+    "collegeName": "ABC Business School",
+    "admissionDate": "2023-08-25",
+    "researchHistory": "Founded in 1990",
+    "events": ["Cultural Fest", "Business Summit"],
+    "sportsFacilities": ["Cricket Ground", "Badminton Court"],
+    "collegeImage": "college2.jpg",
+    "rating": "3.8",
+    "researchCount": 80
+  },
+  {
+    "_id": "003",
+    "collegeName": "ABC Medical College",
+    "admissionDate": "2023-09-15",
+    "researchHistory": "Leading Medical Institute",
+    "events": ["Medical Conference", "Health Awareness Week"],
+    "sportsFacilities": ["Tennis Court", "Swimming Pool"],
+    "collegeImage": "college3.jpg",
+    "rating": "4.7",
+    "researchCount": 150
+  },
+  {
+    "_id": "004",
+    "collegeName": "ABC Arts Academy",
+    "admissionDate": "2023-08-20",
+    "researchHistory": "Prominent Arts Institution",
+    "events": ["Art Exhibition", "Theater Fest"],
+    "sportsFacilities": ["Basketball Court", "Volleyball Court"],
+    "collegeImage": "college4.jpg",
+    "rating": "4.2",
+    "researchCount": 60
+  },
+  {
+    "_id": "005",
+    "collegeName": "ABC Law School",
+    "admissionDate": "2023-09-10",
+    "researchHistory": "Renowned Law College",
+    "events": ["Legal Symposium", "Mock Trials"],
+    "sportsFacilities": ["Football Ground", "Table Tennis Area"],
+    "collegeImage": "college5.jpg",
+    "rating": "4.9",
+    "researchCount": 200
+  },
+  {
+    "_id": "006",
+    "collegeName": "ABC Music Conservatory",
+    "admissionDate": "2023-08-30",
+    "researchHistory": "Famous Music School",
+    "events": ["Music Festival", "Recitals"],
+    "sportsFacilities": ["Badminton Court", "Chess Corner"],
+    "collegeImage": "college6.jpg",
+    "rating": "4.3",
+    "researchCount": 90
+  }
+]
