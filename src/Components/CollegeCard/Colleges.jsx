@@ -1,29 +1,47 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Colleges = ({ college }) => {
+  console.log(college);
   return (
     <div>
       <a href="#" className="group relative block bg-black">
         <img
           alt="Developer"
-          src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
+          src={college.collegeImage}
           className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
         />
 
         <div className="relative p-4 sm:p-6 lg:p-8">
-          <p className="text-sm font-medium uppercase tracking-widest text-pink-500">
-            Developer
+          <p className="text-sm  uppercase tracking-widest font-bold text-pink-500">
+            {college.collegeName}
           </p>
 
-          <p className="text-xl font-bold text-white sm:text-2xl">Tony Wayne</p>
+          <p className="text-xl font-bold text-white sm:text-2xl">
+            ADMISION {college.admissionDate}{" "}
+          </p>
 
-          <div className="mt-32 sm:mt-48 lg:mt-64">
+          <div className="mt-32 sm:mt-48 lg:mt-20">
             <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-              <p className="text-sm text-white">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-                perferendis hic asperiores quibusdam quidem voluptates
-                doloremque reiciendis nostrum harum. Repudiandae?
+              <p className="text-sm text-white  text-center mb-2">
+                <button className="btn bg-indigo-600 btn-sm">
+                  <Link to={`/colleges/${college._id}`}>DETAILS</Link>
+                </button>
               </p>
+              <div className="text-white">
+                <h1 className=" font-bold">
+                  College Name : {college.collegeName}{" "}
+                </h1>
+                <h1>
+                  events {college.events[0]} and{" "}
+                  <span>{college.events[1]} </span>{" "}
+                </h1>
+                <h1>Research Count: {college.researchCount} </h1>
+                <h1>
+                  Sports Facilities {college.sportsFacilities[0]} and{" "}
+                  <span> {college.sportsFacilities[1]} </span>{" "}
+                </h1>
+              </div>
             </div>
           </div>
         </div>

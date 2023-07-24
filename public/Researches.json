@@ -1,0 +1,38 @@
+[
+  {
+    "collegeId": "001",
+    "collegeName": "ABC College of Engineering",
+    "researchPic": "https://thumbs.dreamstime.com/b/group-diversity-medical-student-research-new-project-laboratory-professor-together-news-142370286.jpg",
+    "researchPaper1Title": "Advancements in Robotics",
+    "researchPaper1Link": "https://example.com/paper1.pdf",
+    "researchPaper2Title": "Artificial Intelligence in Healthcare",
+    "researchPaper2Link": "https://example.com/paper2.pdf"
+  },
+  {
+    "collegeId": "002",
+    "collegeName": "ABC Business School",
+    "researchPic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXnUI5yLPr9lCw0o3PvahZ6tvnRZzDbPi8mJFWcmzqItVnPBZUuFrjUAVr5mjqQVUHO18&usqp=CAU",
+    "researchPaper1Title": "Entrepreneurship and Economic Growth",
+    "researchPaper1Link": "https://example.com/paper3.pdf",
+    "researchPaper2Title": "Marketing Strategies in a Digital World",
+    "researchPaper2Link": "https://example.com/paper4.pdf"
+  },
+  {
+    "collegeId": "003",
+    "collegeName": "ABC Medical College",
+    "researchPic": "https://media.istockphoto.com/id/914314308/photo/science-students-in-laboratory-using-microscopes-laptop-on-workbench.jpg?s=612x612&w=0&k=20&c=0wwIxdo_61MXyE9DN6-WDnYntRFWPKxA7Sj703wEypw=",
+    "researchPaper1Title": "Advances in Cancer Treatment",
+    "researchPaper1Link": "https://example.com/paper5.pdf",
+    "researchPaper2Title": "Mental Health Awareness and Interventions",
+    "researchPaper2Link": "https://example.com/paper6.pdf"
+  },
+  {
+    "collegeId": "004",
+    "collegeName": "ABC Arts Academy",
+    "researchPic": "https://www.chitkara.edu.in/blogs/wp-content/uploads/2022/04/shape-art.jpg",
+    "researchPaper1Title": "The Influence of Art in Society",
+    "researchPaper1Link": "https://example.com/paper7.pdf",
+    "researchPaper2Title": "History of Performing Arts",
+    "researchPaper2Link": "https://example.com/paper8.pdf"
+  }
+]

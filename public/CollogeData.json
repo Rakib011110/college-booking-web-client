@@ -1,68 +1,122 @@
 [
   {
-    "_id": "001",
     "collegeName": "ABC College of Engineering",
     "admissionDate": "2023-09-01",
     "researchHistory": "Established in 1985",
     "events": ["Annual Fest", "Tech Symposium"],
     "sportsFacilities": ["Football Ground", "Basketball Court"],
-    "collegeImage": "college1.jpg",
+    "collegeImage": "https://images.unsplash.com/photo-1592066575517-58df903152f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2Nob29sJTIwYnVpbGRpbmd8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
     "rating": "4.5",
     "researchCount": 120
   },
   {
-    "_id": "002",
     "collegeName": "ABC Business School",
     "admissionDate": "2023-08-25",
     "researchHistory": "Founded in 1990",
     "events": ["Cultural Fest", "Business Summit"],
     "sportsFacilities": ["Cricket Ground", "Badminton Court"],
-    "collegeImage": "college2.jpg",
+    "collegeImage": "https://images.pexels.com/photos/207692/pexels-photo-207692.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     "rating": "3.8",
     "researchCount": 80
   },
   {
-    "_id": "003",
     "collegeName": "ABC Medical College",
     "admissionDate": "2023-09-15",
     "researchHistory": "Leading Medical Institute",
     "events": ["Medical Conference", "Health Awareness Week"],
     "sportsFacilities": ["Tennis Court", "Swimming Pool"],
-    "collegeImage": "college3.jpg",
+    "collegeImage": "https://images.unsplash.com/photo-1616512659455-111d3367649f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c2Nob29sJTIwYnVpbGRpbmd8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
     "rating": "4.7",
     "researchCount": 150
   },
   {
-    "_id": "004",
     "collegeName": "ABC Arts Academy",
     "admissionDate": "2023-08-20",
     "researchHistory": "Prominent Arts Institution",
     "events": ["Art Exhibition", "Theater Fest"],
     "sportsFacilities": ["Basketball Court", "Volleyball Court"],
-    "collegeImage": "college4.jpg",
+    "collegeImage": "https://images.unsplash.com/photo-1659994383848-3ee92af90ca0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8&w=1000&q=80",
     "rating": "4.2",
     "researchCount": 60
   },
   {
-    "_id": "005",
     "collegeName": "ABC Law School",
     "admissionDate": "2023-09-10",
     "researchHistory": "Renowned Law College",
     "events": ["Legal Symposium", "Mock Trials"],
     "sportsFacilities": ["Football Ground", "Table Tennis Area"],
-    "collegeImage": "college5.jpg",
+    "collegeImage": "https://storage.googleapis.com/collegetuitioncompare/images/webp/colleges/101693-university-of-mobile.webp",
     "rating": "4.9",
     "researchCount": 200
   },
   {
-    "_id": "006",
     "collegeName": "ABC Music Conservatory",
     "admissionDate": "2023-08-30",
     "researchHistory": "Famous Music School",
     "events": ["Music Festival", "Recitals"],
     "sportsFacilities": ["Badminton Court", "Chess Corner"],
-    "collegeImage": "college6.jpg",
+    "collegeImage": "https://images.unsplash.com/photo-1659994383848-3ee92af90ca0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8fA%3D%3D&w=1000&q=80",
     "rating": "4.3",
     "researchCount": 90
+  },
+  {
+    "collegeName": "XYZ Science Institute",
+    "admissionDate": "2023-09-05",
+    "researchHistory": "Leading Science Institute",
+    "events": ["Science Expo", "Research Symposium"],
+    "sportsFacilities": ["Basketball Court", "Swimming Pool"],
+    "collegeImage": "https://media.istockphoto.com/id/458283985/photo/mckeldin-library-university-of-maryland-college-park.jpg?s=612x612&w=0&k=20&c=rfOkOo_Q0rfTeLfBYbvgthg8pgVTrN8LLcqhjcJsWBg=",
+    "rating": "4.6",
+    "researchCount": 180
+  },
+  {
+    "collegeName": "XYZ Business College",
+    "admissionDate": "2023-08-27",
+    "researchHistory": "Prestigious Business Institute",
+    "events": ["Business Summit", "Entrepreneurship Workshop"],
+    "sportsFacilities": ["Football Ground", "Tennis Court"],
+    "collegeImage": "https://thumbs.dreamstime.com/b/college-campus-library-6252408.jpg",
+    "rating": "4.4",
+    "researchCount": 110
+  },
+  {
+    "collegeName": "XYZ Medical University",
+    "admissionDate": "2023-09-20",
+    "researchHistory": "Top Medical University",
+    "events": ["Medical Conference", "Health Fair"],
+    "sportsFacilities": ["Basketball Court", "Badminton Court"],
+    "collegeImage": "https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29sbGVnZSUyMGNhbXB1c3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80",
+    "rating": "4.8",
+    "researchCount": 220
+  },
+  {
+    "collegeName": "XYZ Arts Academy",
+    "admissionDate": "2023-08-22",
+    "researchHistory": "Renowned Arts Institution",
+    "events": ["Art Exhibition", "Drama Festival"],
+    "sportsFacilities": ["Football Ground", "Volleyball Court"],
+    "collegeImage": "https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29sbGVnZSUyMGNhbXB1c3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80",
+    "rating": "4.1",
+    "researchCount": 70
+  },
+  {
+    "collegeName": "XYZ Law School",
+    "admissionDate": "2023-09-12",
+    "researchHistory": "Prominent Law School",
+    "events": ["Law Symposium", "Mock Court Sessions"],
+    "sportsFacilities": ["Basketball Court", "Table Tennis Area"],
+    "collegeImage": "https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29sbGVnZSUyMGNhbXB1c3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80",
+    "rating": "4.9",
+    "researchCount": 190
+  },
+  {
+    "collegeName": "XYZ School of Music",
+    "admissionDate": "2023-08-31",
+    "researchHistory": "Famous Music School",
+    "events": ["Music Festival", "Recitals"],
+    "sportsFacilities": ["Badminton Court", "Chess Corner"],
+    "collegeImage": "https://upload.wikimedia.org/wikipedia/commons/2/2c/University_College_Oxford.jpg",
+    "rating": "4.3",
+    "researchCount": 100
   }
 ]

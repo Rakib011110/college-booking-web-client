@@ -45,16 +45,22 @@ const BannerCarousel = () => {
           <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-black opacity-75"></div>
 
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-            <h1 className="text-4xl font-extrabold font-serif textin text-white mb-4">
+            <h1 className="text-4xl font-extrabold font-serif textin text-white mb-10">
               WELCOME TO OUR{" "}
               <span className="text-cyan-400">
-                EDUCATION <span className="text-blue-700">MASTER</span>{" "}
+                {" "}
+                <br />
+                EDUCATION <br /> <span className="text-blue-700">
+                  MASTER
+                </span>{" "}
               </span>
             </h1>
             <p className="text-lg text-white mb-6">
-              Explore the best experiences with us.
+              A campus is by tradition the land on which a <br /> college or
+              university and related institutional <br />
+              buildings are situated.
             </p>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center mb-10">
               <input
                 type="text"
                 placeholder="Search"

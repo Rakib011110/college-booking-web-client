@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "001",
+    "reviewId": "r001",
+    "user": "John Doe",
+    "email": "john.doe@example.com",
+    "displayName": "John D.",
+    "photoURL": "https://media.istockphoto.com/id/1171169099/photo/man-with-crossed-arms-isolated-on-gray-background.jpg?s=612x612&w=0&k=20&c=_vETAeGc6ooeOx-WZYFyZdUUL5hyDPrvakBpjytN7lM=",
+    "rating": 4.5,
+    "reviewComment": "Great college with excellent facilities and faculty."
+  },
+  {
+    "_id": "002",
+    "reviewId": "r002",
+    "user": "Michael Johnson",
+    "email": "michael.johnson@example.com",
+    "displayName": "Michael J.",
+    "photoURL": "https://img.freepik.com/free-photo/photo-serious-handsome-guy-posing-against-white-wall_273609-20462.jpg?w=2000",
+    "rating": 4.0,
+    "reviewComment": "The business program is top-notch, and the campus is beautiful."
+  },
+  {
+    "_id": "003",
+    "reviewId": "r003",
+    "user": "Sarah Williams",
+    "email": "sarah.williams@example.com",
+    "displayName": "Sarah W.",
+    "photoURL": "https://img.freepik.com/free-photo/photo-serious-handsome-guy-posing-against-white-wall_273609-20462.jpg?w=2000",
+    "rating": 4.7,
+    "reviewComment": "Medical college with state-of-the-art facilities and experienced professors."
+  },
+  {
+    "_id": "004",
+    "reviewId": "r004",
+    "user": "Emily Lee",
+    "email": "emily.lee@example.com",
+    "displayName": "Emily L.",
+    "photoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80",
+    "rating": 4.8,
+    "reviewComment": "Great place for artistic expression and creativity."
+  }
+]

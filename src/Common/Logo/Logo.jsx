@@ -4,7 +4,7 @@ const Logo = () => {
   return (
     <div>
       <div>
-        <div className=" w-[1140px] px-6 mx-auto grid mt-20 bg-indigo-500 rounded-lg">
+        <div className=" md:w-[1140px] sm:w-1/2 px-6 mx-auto grid mt-20 bg-indigo-500 rounded-lg">
           <div className="grid gap-6 mb-8 md:grid-cols-4 xl:grid-cols-4">
             <div className="flex items-center p-4 bg-white rounded-lg shadow-xs">
               <div className="p-3 mr-4 text-blue-500 bg-blue-100 rounded-full">

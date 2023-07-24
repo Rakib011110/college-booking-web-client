@@ -32,16 +32,16 @@ const Navbar = () => {
               </label>
               <ul
                 tabIndex={0}
-                className="menu container mx-auto menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                className="menu container font-bold font-serif mx-auto menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
                 <li>
-                  <Link> MY ADDMISION</Link>
+                  <Link to="/admission">ADDMISION</Link>
                 </li>
                 <li>
-                  <a>COLLEGE</a>
+                  <Link to="/allcollege"> COLLEGE</Link>
                 </li>
                 <li>
-                  <a href="/">Item 3</a>
+                  <a href="/"> MY COLLEGE</a>
                 </li>
               </ul>
             </div>
@@ -53,13 +53,13 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1">
+            <ul className="menu menu-horizontal px-1 font-bold font-serif">
               <li>
-                <Link to="/">COLLEGE</Link>
+                <Link to="/allcollege">COLLEGE</Link>
               </li>
               <li tabIndex={0}>
                 <details>
-                  <summary> ADDMISION</summary>
+                  <summary> </summary>
                   <ul className="p-2"></ul>
                 </details>
               </li>
@@ -68,7 +68,7 @@ const Navbar = () => {
                 <Link to="/">MY COLLEGE</Link>
               </li>
               <li>
-                <Link to="/">CONTACT</Link>
+                <Link to="/admission">ADDMISION</Link>
               </li>
             </ul>
           </div>
